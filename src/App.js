@@ -1,26 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from "./Button";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello! I am <code>Mahmoud</code> and I am a <code>Software Engineer</code> and I am <code>Learning React</code>.
-          😄
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const user = "Mahmoud";
+    const job = "Software Developer";
+    // generate a random number between 0 and 1
+    const randomNumber = Math.random();
+    const condition = randomNumber > 0.5;
+    let content;
+    if (condition) {
+        content = <p>Condition is true</p>;
+    } else {
+        content = <p>Condition is false</p>;
+    }
+    return (
+        <main className="container">
+            {condition ? (<h1>Hello</h1>) : (<h2>Goodbye</h2>)}
+            {content}
+        </main>
+    );
 }
 
 export default App;
