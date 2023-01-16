@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9552b3f6-3309-4b6c-bebd-595eb2790f1c" name="Changes" comment="Initialize project using Create React App">
-      <change afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+    <list default="true" id="9552b3f6-3309-4b6c-bebd-595eb2790f1c" name="Changes" comment="Conditionals in JSX, {{}} is not a special syntax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -58,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673894216821</updated>
       <workItem from="1673894218147" duration="446000" />
-      <workItem from="1673894682202" duration="4769000" />
+      <workItem from="1673894682202" duration="5361000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1673894959587</created>
@@ -74,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673895045094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Conditionals in JSX, {{}} is not a special syntax">
+      <created>1673899787769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673899787769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize project using Create React App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize project using Create React App" />
+    <MESSAGE value="Conditionals in JSX, {{}} is not a special syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conditionals in JSX, {{}} is not a special syntax" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

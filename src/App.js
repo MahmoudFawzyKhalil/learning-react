@@ -2,21 +2,26 @@ import './App.css';
 import Button from "./Button";
 
 function App() {
-    const user = "Mahmoud";
-    const job = "Software Developer";
-    // generate a random number between 0 and 1
-    const randomNumber = Math.random();
-    const condition = randomNumber > 0.5;
-    let content;
-    if (condition) {
-        content = <p>Condition is true</p>;
-    } else {
-        content = <p>Condition is false</p>;
-    }
+    let products = [
+        {id: 1, name: "Apple", price: 1.99, emoji: "🍎"},
+        {id: 2, name: "Orange", price: 1.49, emoji: "🍊"},
+        {id: 3, name: "Banana", price: 0.99, emoji: "🍌"},
+        {id: 4, name: "Grapes", price: 2.99, emoji: "🍇"},
+    ];
+
+    const productArticles = products.map(p =>
+        <article key={p.id}>
+            <h3>{p.emoji} {p.name}</h3>
+            <h4>${p.price}</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quibusdam!</p>
+        </article>
+    );
+
     return (
         <main className="container">
-            {condition ? (<h1>Hello</h1>) : (<h2>Goodbye</h2>)}
-            {content}
+            <section/>
+            <h1>Products</h1>
+            {productArticles}
         </main>
     );
 }
